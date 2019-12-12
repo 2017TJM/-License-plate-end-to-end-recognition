@@ -50,7 +50,7 @@ if __name__ == '__main__':
     # 设置要测试的图像路径
     # img_path = './data/test/3edpg.png'
     #img_path ='./data/voc/VOCdevkit/VOC2019/JPEGImages/0529-7_14-209&440_539&574-539&574_220&533_209&440_528&481-0_0_26_30_26_9_26-127-179.jpg'
-    img_path ='./1.jpg'
+    img_path ='./01-0_1-249&528_393&586-392&584_249&586_250&530_393&528-0_0_25_27_7_26_29-131-21.jpg'
     man = Predictor(model_path, gpu=False)
     
     print(man.identify(img_path))
